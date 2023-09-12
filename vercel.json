@@ -1,0 +1,8 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "github": {
+    "silent": true
+  }
+}
