@@ -1,7 +1,6 @@
 .github/
 dist/
 public/
-node_modules/
 .netlify/
 *.min.css
 .astro/
