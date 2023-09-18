@@ -20,8 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
-      - name: Install prettier
-        run: pnpm add prettier
       - name: Format with Prettier
         run: pnpm exec prettier -w . --config ./.github/config/.prettierrc.mjs --ignore-path ./.github/config/.prettierignore
 
