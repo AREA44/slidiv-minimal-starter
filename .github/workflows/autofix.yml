@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
       - name: Format with Prettier
-        run: pnpm exec prettier -w . "!.github"
+        run: pnpm exec prettier -w . --config ./.github/config/.prettierrc.mjs --ignore-path ./.github/config/.prettierignore
 
       - name: Run autofix.ci
         uses: autofix-ci/action@v1.3
