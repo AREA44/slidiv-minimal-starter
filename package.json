@@ -7,8 +7,8 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.45.0",
+    "@slidev/cli": "^0.46.1",
     "@slidev/theme-seriph": "^0.21.3"
   },
-  "packageManager": "pnpm@8.12.0"
+  "packageManager": "pnpm@8.12.1"
 }
