@@ -1,7 +1,0 @@
-.github/
-dist/
-public/
-.netlify/
-*.min.css
-.astro/
-pnpm-lock.yaml
