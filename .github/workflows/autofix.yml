@@ -28,7 +28,7 @@ jobs:
           version: latest
 
       - name: Run Biome
-        run: biome ci . --config-path=".github/config/biome.json"
+        run: biome format . --config-path=".github/config/biome.json"
 
       - name: Run autofix.ci
         uses: autofix-ci/action@v1.3
