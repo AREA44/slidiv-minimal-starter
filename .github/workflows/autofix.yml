@@ -19,13 +19,13 @@ jobs:
         with:
           bun-version: latest
 
+      - name: Install dependencies
+        run: bun install
+
       - name: Setup Biome
         uses: biomejs/setup-biome@v2
         with:
           version: latest
-
-      - name: Install dependencies
-        run: bun install
 
       - name: Run Biome
         run: biome ci . --config-path=".github/config/biome.json"
