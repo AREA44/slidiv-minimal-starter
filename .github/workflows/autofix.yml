@@ -18,7 +18,7 @@ jobs:
         uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
-      
+
       - name: Setup Biome
         uses: biomejs/setup-biome@v2
         with:
@@ -28,7 +28,7 @@ jobs:
         run: bun install
 
       - name: Run Biome
-        run: biome ci .
+        run: biome ci . --config-path=".github/config/biome.json"
 
       - name: Run autofix.ci
         uses: autofix-ci/action@v1.3
