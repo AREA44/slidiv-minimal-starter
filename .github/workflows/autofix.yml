@@ -23,7 +23,7 @@ jobs:
         run: bun install
 
       - name: Run format
-        run: bunx @biomejs/biome format --write --config-path='.github/config/biome.json'
+        run: bunx @biomejs/biome format --write --config-path=".github/config/biome.json"
 
       - name: Run autofix.ci
         uses: autofix-ci/action@v1.3

@@ -2,7 +2,7 @@
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
-    "ignore": [".github"],
+    "ignore": [".github/"],
     "attributePosition": "auto",
     "indentStyle": "tab",
     "indentWidth": 2,
