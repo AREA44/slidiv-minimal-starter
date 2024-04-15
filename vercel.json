@@ -1,6 +1,6 @@
 {
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-  "buildCommand": "pnpm build",
+  "buildCommand": "bun run build",
   "outputDirectory": "dist",
   "github": {
     "silent": true
