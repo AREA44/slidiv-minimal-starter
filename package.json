@@ -4,11 +4,15 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "format": "biome format --write ."
   },
   "dependencies": {
     "@slidev/cli": "^51.0.1",
     "@slidev/theme-seriph": "^0.25.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
   },
   "packageManager": "pnpm@9.15.3"
 }
