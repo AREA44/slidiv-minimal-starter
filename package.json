@@ -8,12 +8,12 @@
     "format": "biome format --write ."
   },
   "dependencies": {
-    "@slidev/cli": "^51.3.0",
+    "@slidev/cli": "^51.4.0",
     "@slidev/theme-seriph": "^0.25.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4"
   },
-  "packageManager": "pnpm@10.6.1"
+  "packageManager": "pnpm@10.6.3"
 }
