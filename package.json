@@ -10,7 +10,7 @@
   "dependencies": {
     "@slidev/cli": "^51.8.0",
     "@slidev/theme-seriph": "^0.25.0",
-    "vue": "^3.5.14"
+    "vue": "^3.5.16"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4"
