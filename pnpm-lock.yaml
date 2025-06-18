@@ -18,6 +18,9 @@ importers:
         specifier: ^3.5.16
         version: 3.5.16(typescript@5.8.3)
     devDependencies:
+      '@area44/biome-config':
+        specifier: ^2.0.1
+        version: 2.0.1
       '@biomejs/biome':
         specifier: 2.0.0
         version: 2.0.0
@@ -40,6 +43,9 @@ packages:
 
   '@antfu/utils@9.2.0':
     resolution: {integrity: sha512-Oq1d9BGZakE/FyoEtcNeSwM7MpDO2vUBi11RWBZXf75zPsbUVWmUs03EqkRFrcgbXyKTas0BdZWC1wcuSoqSAw==}
+
+  '@area44/biome-config@2.0.1':
+    resolution: {integrity: sha512-OS+DL+Sw4teLAJBPnHTSSnBxcAJZskWULqMTRbhQcinPAMSac8EBojRTybIX0eZGblJ17EOt/qKickjYPn9GDA==}
 
   '@babel/code-frame@7.27.1':
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
@@ -3053,6 +3059,8 @@ snapshots:
   '@antfu/utils@8.1.0': {}
 
   '@antfu/utils@9.2.0': {}
+
+  '@area44/biome-config@2.0.1': {}
 
   '@babel/code-frame@7.27.1':
     dependencies:
