@@ -10,11 +10,11 @@
   "dependencies": {
     "@slidev/cli": "^51.8.2",
     "@slidev/theme-seriph": "^0.25.0",
-    "vue": "^3.5.16"
+    "vue": "^3.5.17"
   },
   "devDependencies": {
     "@area44/biome-config": "^2.0.1",
-    "@biomejs/biome": "2.0.0"
+    "@biomejs/biome": "2.0.4"
   },
   "packageManager": "pnpm@10.12.1"
 }
