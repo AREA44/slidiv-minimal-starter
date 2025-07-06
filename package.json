@@ -13,8 +13,7 @@
     "vue": "^3.5.17"
   },
   "devDependencies": {
-    "@area44/biome-config": "^2.0.1",
+    "@area44/biome-config": "^2.2.2",
     "@biomejs/biome": "2.0.6"
-  },
-  "packageManager": "pnpm@10.12.4"
+  }
 }
