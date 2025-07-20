@@ -5,7 +5,9 @@
     "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export",
-    "format": "biome format --write ."
+    "format": "biome format --write .",
+    "lint": "biome lint --write .",
+    "check": "biome check --write ."
   },
   "dependencies": {
     "@slidev/cli": "^52.0.0",
